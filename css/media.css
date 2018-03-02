@@ -43,3 +43,8 @@
         color: #000;
     }
 }
+@media (max-width: 575px) {
+    .menu-open {
+        position: inherit;
+    }
+}
