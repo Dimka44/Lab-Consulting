@@ -1575,7 +1575,7 @@ button, button:hover, button:active, button:focus {
 	color: #fff;
 }
 .modal-window {
-	width: 400px;
+	width: 40%;
 	height: 400px;
 	background: #fff;
 	position: fixed;
