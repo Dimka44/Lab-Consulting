@@ -632,6 +632,11 @@ button, button:hover, button:active, button:focus {
 .menu__item a {
     color: #3f4b60;
 }
+.menu__item a:hover {
+	padding-bottom: 3px;
+	border-bottom: 3px solid #c90e0e;
+	transition: all 300ms ease;
+}
 .btn-phone {
 	border: none;
     font-size: 14px;
@@ -643,7 +648,8 @@ button, button:hover, button:active, button:focus {
     text-align: center;
     border-bottom: 4px solid #149d6f;
     padding-top: 6px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	cursor: pointer;
 }
 .btn-phone:active {
     outline: none;
@@ -790,6 +796,11 @@ button, button:hover, button:active, button:focus {
     border: 2px solid #ced1d7;
     padding: 13px 27px;
     color: #fff;
+}
+.btn-inform__item:hover {
+	border: 2px solid #ff0000;
+	color: #ff0000;
+	transition: all 300ms ease;
 }
 .news__title {
     color: #a0a7b3;
@@ -1051,7 +1062,8 @@ button, button:hover, button:active, button:focus {
 	font-family: 'MuseoSansCyrl-700';
 }
 .nav-menu__item--red a:hover {
-    color: #ff0000;
+	color: #ff0000;
+	transition: all 300ms ease;
 }
 .nav-menu__item--serviceGray a::after {
 	content: 'Финансовый аутсорcинг';
@@ -1089,7 +1101,7 @@ button, button:hover, button:active, button:focus {
     color: #ff0000;
     border: 2px solid #ff0000;
     padding: 14px 15px;
-    border-radius: 3px;
+	border-radius: 3px;
 }
 .nav-menu__item--service a {
 	color: #ff0000;
@@ -1168,10 +1180,10 @@ button, button:hover, button:active, button:focus {
 }
 .photo-item {
     position: relative;
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 .photo-item img {
-    width: 100%;
+	width: 100%;
 }
 .photo__title {
     font-family: 'MuseoSansCyrl-700';
@@ -1186,7 +1198,7 @@ button, button:hover, button:active, button:focus {
     background: rgba(0, 0, 0, 0.57);
     position: absolute;
     left: 0;
-    top: 0;
+	top: 0;
 }
 .photo-item__block i {
     font-size: 29px;
@@ -1194,11 +1206,12 @@ button, button:hover, button:active, button:focus {
 	margin-left: 50%;
 	margin-top: 45%;
 	transform: translateX(-50%);
+	cursor: pointer;
 
 }
 .photo-item:hover .photo-item__block {
     display: block;
-    border: 7px solid #9a97a7;
+	border: 7px solid #9a97a7;
 }
 #map {
 	width: 100%;
@@ -1516,13 +1529,31 @@ button, button:hover, button:active, button:focus {
 	padding: 6px 9px;
 	cursor: pointer;
 }
+.fa-facebook:hover {
+	background: #3d6ca8;
+	color: #000;
+	border: 2px solid #3d6ca8;
+	transition: all 300ms ease;
+}
 .fa-twitter {
 	padding: 6px 6px;
 	cursor: pointer;
 }
+.fa-twitter:hover {
+	background: #43c9fd;
+	color: #000;
+	border: 2px solid #43c9fd;
+	transition: all 300ms ease;
+}
 .fa-telegram {
 	padding: 6px 6px;
 	cursor: pointer;
+}
+.fa-telegram:hover {
+	background: #25a3d4;
+	color: #000;
+	border: 2px solid #25a3d4;
+	transition: all 300ms ease;
 }
 .map-contact {
 	padding: 0 30px;
