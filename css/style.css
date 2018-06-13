@@ -610,15 +610,17 @@ button, button:hover, button:active, button:focus {
     bottom: 0;
 }
 .page-header__background {
-    background: url(../img/chikago.png) no-repeat center top / cover;
-    width: 100%;
-    padding-bottom: 273px;
+	min-height: 718px;
+	background: transparent;
+}
+.page-header__background .top-line {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 17px 0 5px 0;
 }
 .top-line {
-    background: rgba(0, 0, 0, .1);
-    border-top: 5px solid #58647a;
-    border-bottom: 4px solid #c7ccdc;
-    padding: 17px 0 5px 0;
+	background: rgba(0, 0, 0, 0.1);
+	padding: 17px 0 5px 0;
+	border-bottom: 4px solid #747487;
 }
 .menu {
     list-style: none;
@@ -660,23 +662,22 @@ button, button:hover, button:active, button:focus {
     padding-right: 5px;
 }
 .intro {
-    margin-top: 105px;
+	margin-top: 105px;
+	color: #fff;
 }
 .intro__title {
-    color: #081d42;
     font-size: 58px;
 }
 .intro__text {
     font-size: 29px;
     font-family: "MuseoSansCyrl-100";
     width: 58%;
-    color: #081d42;
 }
 .big {
     text-transform: uppercase;
 }
 .social-intro {
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.6);
     width: 170px;
     padding: 11px;
     border-radius: 3px;
@@ -1226,10 +1227,8 @@ button, button:hover, button:active, button:focus {
 	font-size: 24px;
 }
 .intro-service {
-	background: url(../img/audit.png) no-repeat;
 	width: 100%;
-	height: auto;
-	padding-bottom: 20px;
+	min-height: 310px;
 }
 .icon-service {
 	background: url(../img/icon-service.png) no-repeat;

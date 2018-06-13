@@ -4,6 +4,49 @@ $(function() {
         $('.menu-collapse').toggleClass('opened');
     });
 
+
+    //animated
+    $(window).scroll(function() {
+        $('.item').each(function(){
+            var imagePos = $(this).offset().top;
+    
+            var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow+820) {
+                $(this).addClass("bounceIn");
+            }
+        });
+    });
+    $(window).scroll(function() {
+        $('.links').each(function(){
+            var imagePos = $(this).offset().top;
+    
+            var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow+820) {
+                $(this).addClass("fadeInLeft");
+            }
+        });
+    });
+    $(window).scroll(function() {
+        $('.anim-left').each(function(){
+            var imagePos = $(this).offset().top;
+    
+            var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow+820) {
+                $(this).addClass("fadeInLeft");
+            }
+        });
+    });
+    $(window).scroll(function() {
+        $('.anim-right').each(function(){
+            var imagePos = $(this).offset().top;
+    
+            var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow+820) {
+                $(this).addClass("fadeInRight");
+            }
+        });
+    });
+
     
 });
 
