@@ -1,12 +1,12 @@
-font-face {
+@font-face {
     font-family: "MuseoSansCyrl-700";
     src: "../fonts/ofont.ru_Museo Sans Cyrl 700.ttf";
 }
-font-face {
+@font-face {
     font-family: "MuseoSansCyrl-100";
     src: "../fonts/ofont.ru_Museo Sans Cyrl 100.ttf";
 }
-font-face {
+@font-face {
     font-family: "MuseoSansCyrl-300";
     src: "../fonts/ofont.ru_Museo Sans Cyrl 300.ttf";
 }
