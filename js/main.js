@@ -175,6 +175,10 @@ $('.open').click(function(){
 $('.close').click(function(){
     $('.modal-window').slideUp('slow');
 })
+//inputmask 
+$(function($) {
+    $('#number').mask('+7 (999) 999-99-99');
+})
 
 //slider// 
 $('.slider').slick({

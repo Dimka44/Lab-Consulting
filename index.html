@@ -287,7 +287,7 @@
         <form class="modal-form js-form" action="success.php" id="popupResult" method="POST">
             <input type="text" name="name" required placeholder="Ваше имя" class="form-control form__field">
             <input type="email" name="email" required placeholder="Введите e-mail" class="form-control form__field">
-            <input type="tel" name="tel" required placeholder="Введите телефон" class="form-control form__field">
+            <input id="number" type="tel" name="tel" required placeholder="Введите телефон" class="form-control form__field">
             <button data-submit>Отправить заявку</button>
             <button class="close">X</button>
         </form>
@@ -307,6 +307,7 @@
     <script src="js/parallax.min.js"></script>
     <!--валидатор-->
     <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+    <script src="js/maskeinput.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
